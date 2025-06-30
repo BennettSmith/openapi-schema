@@ -331,6 +331,10 @@
         "title": {
           "type": "string"
         },
+        "exclusiveMinimum": {
+          "type": "boolean",
+          "default": false
+        },
         "multipleOf": {
           "type": "number",
           "minimum": 0,
@@ -345,10 +349,6 @@
         },
         "minimum": {
           "type": "number"
-        },
-        "exclusiveMinimum": {
-          "type": "boolean",
-          "default": false
         },
         "maxLength": {
           "type": "integer",
